@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 60%;
 }
 
 .dashed {
@@ -71,7 +71,7 @@ header {
 .header-box {
     background-color: rgb(235, 128, 212);
     height: 80%;
-    width: 60%;
+    width: 50%;
 }
 
 /* CORPO */
@@ -80,7 +80,7 @@ header {
     display: flex;
     justify-content: center;
 
-    height: 350px;
+    height: 300px;
 }
 
 /* box contenuto */
@@ -112,7 +112,7 @@ header {
 /* sezione finale */
 
 #last-section {
-    height: 600px;
+    height: 450px;
 }
 
 .green-box {
@@ -130,27 +130,29 @@ footer {
     justify-content: space-between;
 
     background-color: rgb(60, 60, 60);
-    height: 400px;
+    height: 350px;
 }
 
 #footer-section {
     height: 70%;
-    align-items: flex-start;
-    margin: 5px 0 0 0;
+    margin-top: 5px;
 }
 
 .footer-pink-box {
     width: 30%;
     height: 100%;
+
     background-color: pink;
 }
 
 .footer-cyan-section {
     display: flex;
     justify-content: center;
-    background-color: rgb(24, 178, 170);
+
     width: 70%;
     height: 100%;
+
+    background-color: rgb(24, 178, 170);
 }
 
 .footer-cyan-box {
@@ -160,15 +162,14 @@ footer {
 
 hr {
     width: 100%;
-    margin: 15px 0;
 }
 
 .page-bottom {
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
-
     height: 50px;
+    
+    background-color: aquamarine;
 }
 
 .footer-logo,
@@ -176,4 +177,3 @@ hr {
     padding: 5px;
     background-color: pink;
 }
-
