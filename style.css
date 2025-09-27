@@ -1,3 +1,5 @@
+/* CSS GENERICO */ 
+
 * {
     padding: 0;
     margin: 0;
@@ -8,106 +10,148 @@ body {
     font-family: sans-serif;
 }
 
-.header {
-    display: flex;
-    background-color: lightblue;
-    padding: 13px;
-
-    justify-content: center;
-}
-
-/* wrapper con colori differenti */
-
-.boxed {
+.wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 70%;
 }
 
-.blue {
-    background-color: rgb(24, 24, 160);
-}
-
-.gold {
-    background-color: darkgoldenrod;
-}
-
-.gray {
-    background-color: gray;
-}
-
-/* navbar */
-
-#logo {
-    width: 20%;
-    padding: 10px;
+.dashed {
     border: 2px dashed black;
 }
 
-#link {
+.gray-bg {
+    background-color: rgb(199, 197, 197);
+}
+
+/* HEADER E NAVBAR */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0 2px 0;
+    background-color: lightblue;
+}
+
+.logo,
+.link,
+.login {
+    background-color: rgb(216, 159, 14);
+    padding: 9px 7px;
+}
+
+.logo {
+    width: 20%;
+}
+
+.link {
     width: 60%;
-    padding: 10px;
     text-align: center;
-    border: 2px dashed black;
 }
 
-#login {
+.login {
     width: 20%;
-    padding: 10px;
     text-align: end;
-    padding-right: 5px;
-    border: 2px dashed black;
 }
 
-/* center piece */
-
-.back {
+.header-section {
     display: flex;
     justify-content: center;
-    padding: 25px 0;
+    align-items: center;
+
+    width: 100%;
+    height: 300px;
+    margin-top: 12px;
+
+    background-color: rgb(12, 12, 126);
 }
 
-.rect-main {
-    background-color: rgb(241, 132, 186);
-    height: 350px;
+.header-box {
+    background-color: rgb(235, 128, 212);
+    height: 80%;
     width: 60%;
-    border: 2px dashed black;
 }
 
-/* div contenuto */
+/* CORPO */
 
-.box-blue {
-    height: 450px;
-    background-color: lightblue;
-    border: 2px dashed black;
-    width: 70%;
+.section {
+    display: flex;
+    justify-content: center;
+
+    height: 350px;
 }
 
-.box-pink {
-    height: 450px;
-    background-color: pink;
-    border: 2px dashed black;
+/* box contenuto */
+
+.blue-box {
+    width: 60%;
+    height: 80%;
+    background-color: lightskyblue;
+}
+
+.pink-box {
+    height: 80%;
+    width: 40%;
+    background-color: lightpink;
+}
+
+.blue-box-reversed {
+    width: 40%;
+    height: 80%;
+    background-color: lightskyblue;
+}
+
+.pink-box-reversed {
+    width: 60%;
+    height: 80%;
+    background-color: lightpink;
+}
+
+/* sezione finale */
+
+#last-section {
+    height: 600px;
+}
+
+.green-box {
+    background-color: rgb(8, 111, 8);
+    height: 80%;
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    
+    background-color: rgb(80, 77, 77);
+    height: 400px;
+}
+
+footer > .wrapper {
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+.footer-pink-box {
     width: 30%;
-}
+    height: 80%;
 
-.box-blue-reverse {
-    height: 450px;
-    background-color: lightblue;
-    border: 2px dashed black;
-    width: 30%;
-}
-
-.box-pink-reverse {
-    height: 450px;
     background-color: pink;
-    border: 2px dashed black;
-    width: 70%;
 }
 
-.box-green {
-    height: 700px;
+.footer-cyan-section {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(24, 178, 170);
     width: 70%;
-    background-color: green;
-    border: 2px dashed black;
+    height: 80%;
 }
 
+.footer-cyan-box {
+    width: 25%;
+    border: 2px dashed white;
+}
