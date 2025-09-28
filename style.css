@@ -83,8 +83,6 @@ header {
     height: 300px;
 }
 
-/* box contenuto */
-
 .blue-box {
     width: 60%;
     height: 80%;
@@ -147,7 +145,6 @@ footer {
 
 .footer-cyan-section {
     display: flex;
-    justify-content: center;
 
     width: 70%;
     height: 100%;
