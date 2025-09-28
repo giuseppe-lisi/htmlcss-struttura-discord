@@ -18,11 +18,11 @@ body {
 }
 
 .dashed {
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
 
 .gray-bg {
-    background-color: rgb(199, 197, 197);
+    background-color: #D3D3D3;
 }
 
 /* HEADER E NAVBAR */
@@ -32,13 +32,13 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 1em 0 2px 0;
-    background-color: lightblue;
+    background-color: #ADD8E7;
 }
 
 .logo,
 .link,
 .login {
-    background-color: rgb(216, 159, 14);
+    background-color: #DAA51E;
     padding: 9px 7px;
 }
 
@@ -65,11 +65,11 @@ header {
     height: 300px;
     margin-top: 12px;
 
-    background-color: rgb(12, 12, 126);
+    background-color: #00018B;
 }
 
 .header-box {
-    background-color: rgb(235, 128, 212);
+    background-color: #EF82ED;
     height: 80%;
     width: 50%;
 }
@@ -88,25 +88,25 @@ header {
 .blue-box {
     width: 60%;
     height: 80%;
-    background-color: lightskyblue;
+    background-color: #1D90FF;
 }
 
 .pink-box {
     height: 80%;
     width: 40%;
-    background-color: lightpink;
+    background-color: #FFBFCA;
 }
 
 .blue-box-reversed {
     width: 40%;
     height: 80%;
-    background-color: lightskyblue;
+    background-color: #1D90FF;
 }
 
 .pink-box-reversed {
     width: 60%;
     height: 80%;
-    background-color: lightpink;
+    background-color: #FFBFCA;
 }
 
 /* sezione finale */
@@ -116,7 +116,7 @@ header {
 }
 
 .green-box {
-    background-color: rgb(8, 111, 8);
+    background-color: #208B21;
     height: 90%;
     width: 100%;
 }
@@ -129,7 +129,7 @@ footer {
     align-items: center;
     justify-content: space-between;
 
-    background-color: rgb(60, 60, 60);
+    background-color: #23272A;
     height: 350px;
 }
 
@@ -142,7 +142,7 @@ footer {
     width: 30%;
     height: 100%;
 
-    background-color: pink;
+    background-color: #F08180;
 }
 
 .footer-cyan-section {
@@ -152,7 +152,7 @@ footer {
     width: 70%;
     height: 100%;
 
-    background-color: rgb(24, 178, 170);
+    background-color: #1FB3AA;
 }
 
 .footer-cyan-box {
@@ -161,6 +161,8 @@ footer {
 }
 
 hr {
+    height: 2px;
+    color: white;
     width: 100%;
 }
 
@@ -169,11 +171,11 @@ hr {
     justify-content: space-between;
     height: 50px;
     
-    background-color: aquamarine;
+    background-color: #7FFFD4;
 }
 
 .footer-logo,
 .footer-button {
     padding: 5px;
-    background-color: pink;
+    background-color: #FFB7C0;
 }
