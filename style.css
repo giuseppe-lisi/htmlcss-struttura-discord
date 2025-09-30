@@ -1,5 +1,3 @@
-/* CSS GENERICO */ 
-
 * {
     padding: 0;
     margin: 0;
@@ -8,171 +6,150 @@
 
 body {
     font-family: sans-serif;
+    color: white;
 }
 
 .wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-orange {
+    background-color: orange;
 }
 
 .dashed {
     border: 2px dashed black;
 }
 
-.gray-bg {
-    background-color: #D3D3D3;
+.dashed-white {
+    border: 2px dashed white;
 }
 
-/* HEADER E NAVBAR */
+/* FINE CSS GENERICO */
+
+
+/* HEADER */
 
 header {
-    display: flex;
-    flex-direction: column;
+    background-color: lightblue;
+    padding: 1em 0 0.2em 0;
+}
+
+.header-container {
+    min-height: 50px;
+}
+
+.header-column-links,
+.header-column-login,
+.header-column-logo {
     align-items: center;
-    padding: 1em 0 2px 0;
-    background-color: #ADD8E7;
 }
 
-.logo,
-.link,
-.login {
-    background-color: #DAA51E;
-    padding: 9px 7px;
-}
-
-.logo {
+.header-column-logo {
     width: 20%;
+    padding-left: 5px;
 }
 
-.link {
+.header-column-links {
     width: 60%;
-    text-align: center;
+    justify-content: center;
 }
 
-.login {
+.header-column-login {
     width: 20%;
-    text-align: end;
+    justify-content: flex-end;
+    padding-right: 5px;
 }
 
-.header-section {
-    display: flex;
+.jumbotron {
+    background-color: blue;
     justify-content: center;
-    align-items: center;
-
-    width: 100%;
-    height: 300px;
-    margin-top: 12px;
-
-    background-color: #00018B;
+    margin-top: 1em;
+    padding: 1em 0;
 }
 
-.header-box {
-    background-color: #EF82ED;
-    height: 80%;
-    width: 50%;
+.jumbotron-content {
+    background-color: violet;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 250px;
 }
 
-/* CORPO */
+/* MAIN */
 
-.section {
-    display: flex;
-    justify-content: center;
-
-    height: 300px;
+section {
+    padding: 2em;
 }
 
-.blue-box {
+.big-column {
+    min-height: 300px;
     width: 60%;
-    height: 80%;
-    background-color: #1D90FF;
+    background-color: lightblue;
 }
 
-.pink-box {
-    height: 80%;
+.small-column {
+    min-height: 300px;
     width: 40%;
-    background-color: #FFBFCA;
-}
-
-.blue-box-reversed {
-    width: 40%;
-    height: 80%;
-    background-color: #1D90FF;
-}
-
-.pink-box-reversed {
-    width: 60%;
-    height: 80%;
-    background-color: #FFBFCA;
-}
-
-/* sezione finale */
-
-#last-section {
-    height: 450px;
+    background-color: pink;
 }
 
 .green-box {
-    background-color: #208B21;
-    height: 90%;
     width: 100%;
+    background-color: green;
+    min-height: 600px;
 }
 
 /* FOOTER */
 
 footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-    background-color: #23272A;
-    height: 350px;
+    background-color: rgb(57, 57, 57);
 }
 
-#footer-section {
-    height: 70%;
-    margin-top: 5px;
+.footer-section {
+    padding: 7px 0 30px 0;
 }
 
-.footer-pink-box {
+.footer-section-pink {
+    background-color: palevioletred;
+    min-height: 450px;
     width: 30%;
-    height: 100%;
-
-    background-color: #F08180;
 }
 
-.footer-cyan-section {
-    display: flex;
-
+.footer-section-green {
+    background-color: lightseagreen;
     width: 70%;
-    height: 100%;
-
-    background-color: #1FB3AA;
 }
 
-.footer-cyan-box {
+.footer-box-green {
     width: 25%;
-    border: 1px dashed white;
 }
 
-hr {
+.footer-hr-strikethrough {
     height: 2px;
     color: white;
-    width: 100%;
 }
 
-.page-bottom {
-    display: flex;
+.footer-page-end {
+    background-color: aquamarine;
+    min-height: 3em;
+    margin-top: 20px;
+
     justify-content: space-between;
-    height: 50px;
-    
-    background-color: #7FFFD4;
+    align-items: center;
 }
 
-.footer-logo,
-.footer-button {
+.button {
     padding: 5px;
-    background-color: #FFB7C0;
+    background-color: hotpink;
+    color: white;
 }
+
